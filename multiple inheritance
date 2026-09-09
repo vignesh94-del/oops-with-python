@@ -1,0 +1,13 @@
+class father:
+  def propertyF(self):
+    print("father property")
+class mother:
+  def propertyM(self):
+    print("mother property")
+class child(father,mother):
+  def owner(self):
+    print("child owner")
+d=child()
+d.propertyF()
+d.propertyM()
+d.owner()
